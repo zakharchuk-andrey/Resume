@@ -2,4 +2,4 @@
 
 ## My CV 
 
-[CV] (https://zakharchuk-andrey.github.io/zakharchuk-andrey/)
+[CV](https://zakharchuk-andrey.github.io/zakharchuk-andrey/)
