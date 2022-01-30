@@ -6,4 +6,4 @@
 - [x] Application `Flexbox`
 
 
-[RESUME](https://zakharchuk-andrey.github.io/zakharchuk-andrey/)
+[RESUME](https://zakharchuk-andrey.github.io/Resume/)
