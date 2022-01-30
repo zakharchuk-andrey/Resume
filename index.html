@@ -4,98 +4,67 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Curriculum Vitae</title>
+    <title>Resume</title>
     <link rel="stylesheet" href="style/style.css" />
   </head>
-
   <body class="body">
-    <header class="header">
-      <div class="section">
-        <ul class="person">
-        <li class="name">Andrei Zakharchuk</li>
-        <li class="address">Brest,Moscow street 346, apt.81 </li>
-        <li class="mobil-phone">+375 (33) 640-20-95</li>
-        <li class="email" >a.zakcharcuk@gmail.com</li>
-        <li class="national">Belarus</li>
-        <li class="date">20.12.1997</li>
-      </ul>
-      </div>
-      <img src="images/andrey_zakharchuk.jpg" alt="andrei-zakhachuk" class="img-andrei" width="300">
-    </header>
-  
-      <div class="box-education">
-        <div class="education-nav">
-          <h2 class="education">Education</h2>
-        </div>
-          <div class="education-name-item">
-             <ul class="education-name">
-               <li class="college">Polytechnic College, Department of Radio Engineering 2015-2018</li>
-               <li class="university">Pedagogical University named after A.S.Pushkin,Faculty of Physical Education 2018-2022</li>
-               <li class="tms">Courses <strong>Front-end developer</strong> in TeachMeSkills</li>
-             </ul>
-          </div>
-      </div>
-
-      <div class="box-work">
-        <div class="box-work-nav">
-          <h2 class="work">Work experience</h2>
-       </div>
-
-         <div class="work-name">
-          <ul class="work-name-item">
-            <li class="sport">Sport school 2018-2019</li>
-            <li class="gefest">Locksmith in an enterprise "Gefest-technique" 2019-2022</li>
+      <header class="header">
+        <img class="header__images" src="/images/andrey_zakharchuk.jpg">
+        <div class="header__infomation">
+          <ul class="header__list">
+            <li class="header__item">Andrei Zakharchuk</li>
+            <li class="header__item">20 December 1997</li>
+            <li class="header__item">Belarus | Brest</li>
+            <li class="header__item">+375(33)640-20-95</li>
+            <li class="header__item">a.zakcharcuk@gmail.com</li>
+            <button class="header__button-linkedin">LinkedIn</button>
+            <button class="header__button-github">Github</button>
           </ul>
         </div>
-      </div>
-
-
-
-
-      <div class="box-skills">
-        <div class="box-skills-nav">
-          <h2 class="skills">Skills</h2>
-        </div>
-
-       <div class="skills-name">
-           <div class="hard"><h4 class="hard-box">Hard</h4>
-              <ul class="hard-list">
-                <li class="communication">Communication skills</li>
-                <li class="learnability">Learnability</li>
-                <li class="team-work">Team work</li>
-                <li class="self-dlt">Self-development</li> 
-              </ul>
-           </div>
-        
-            
-
-           <div class="soft"><h4 class="soft-box">Soft</h4>
-              <ul class="soft-list"> 
-                <li class="html">HTML5</li>
-                <li class="css">CSS3</li>
-                <li class="bem">BEM</li>
-                <li class="eng">English</li>
-              </ul>
-            </div>    
-         </div>
-        </div>
-
-   
-     <footer class="footer">
-        <div class="social-nav">
-          <h2 class="social-net">Social Network</h2>
-        </div>
-        
-          <nav class="social-name">
-            <a class="vk" href="https://vk.com/your_northerner" >Vkontakte</a>
-            <a class="inst" href="https://www.instagram.com/zaharushka_97/" >Instagram</a>
-            <a class="linkedin" href="https://www.linkedin.com/in/andrei-zakharchuk-41436a229/" >LinkedIn</a>
-            <a class="github" href="https://github.com/zakharchuk-andrey" >Github</a>
-          </nav>
-      </footer> 
-      
+      </header>
+      <main class="main">
+        <section class="main__section">
+          <h3 class="main__title">Skills:</h3>
+          <div class="main__skills">
+            <ul class="main__list-hard">
+              <h3 class="main__list-title">Hard</h3>
+              <li class="main__item-hard">Communication</li>
+              <li class="main__item-hard">Work in team</li>
+              <li class="main__item-hard">Self improvement</li>
+              <li class="main__item-hard">English elementary level</li>
+            </ul>
+            <ul class="main__list-soft">
+              <h3 class="main__list-title">Soft</h3>
+              <li class="main__item-soft">HTML5</li>
+              <li class="main__item-soft">CSS3</li>
+              <li class="main__item-soft">Bootstrap</li>
+              <li class="main__item-soft">SASS</li>
+            </ul>
+          </div>
+        </section>
+        <container class="main__container">
+          <div class="main__education">
+            <h3 class="main__title-education">Education:</h3>
+            <ul class="main__list-education">
+              <li class="main__item-education">
+                Technical College Faculty of Radio Electronics
+              </li>
+              <li class="main__item-education">
+                Pedagogical University Faculty of Physical Education
+              </li>
+              <li class="main__item-education">
+                Courses TeachMeSkills Front-End Developer
+              </li>
+            </ul>
+          </div>
+          <div class="main__works">
+            <h3 class="main__title-works">Works:</h3>
+            <ul class="main__list-works">
+              <li class="main__item-works">Sports school</li>
+              <li class="main__item-works">Gefest-technique (locksmith)</li>
+            </ul>
+          </div>
+        </container>
+      </main>
   </body>
-
-  
-
 </html>
