@@ -49,7 +49,18 @@
     font-size: 1.2em;
     border-radius: 5%;
     background: #24292f;
+}
+
+.header__link-email:hover {
     color:#feffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header__link {
+    color:#feffff;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .main {
